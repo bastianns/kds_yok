@@ -1,0 +1,7 @@
+kds/
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.env
+outputs/
