@@ -5,3 +5,5 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 outputs/
+.venv/
+main.py
