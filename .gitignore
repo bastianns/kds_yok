@@ -6,4 +6,5 @@ __pycache__/
 .env
 outputs/
 .venv*/
-
+Find_IT_Ale_New.ipynb
+*.md
