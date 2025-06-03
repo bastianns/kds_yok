@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 import torch
 import json
-from custom_utils import ProteinRNN
+from custom_utils import FeatureDropper ,CustomLabelEncoder, CustomScaler ,ProteinRNN
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(os.path.dirname(APP_DIR), 'models')
