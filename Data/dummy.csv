@@ -1,0 +1,4 @@
+ID_Proteína,Sequência,Massa_Molecular,Ponto_Isoelétrico,Hidrofobicidade,Carga_Total,Proporção_Polar,Proporção_Apolar,Comprimento_Sequência
+Protein_Test_001,MAKETHESEQUENCEVALIDAMINOACIDS,25000.5,7.5,0.12,-2,0.35,0.45,200
+Protein_Test_002,ANOTHERVALIDAMINOACIDSEQUENCEHERE,18000.0,6.2,-0.05,1,0.40,0.30,150
+Protein_Test_003,SHORTSEQ,8000.7,9.1,0.50,5,0.20,0.60,70
