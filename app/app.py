@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 import torch
 import json
-from custom_utils import ProteinRNN
+from custom_utils import FeatureDropper ,CustomLabelEncoder, CustomScaler ,ProteinRNN
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(os.path.dirname(APP_DIR), 'models')
@@ -218,7 +218,7 @@ else:
 
 # ?   displaying model performance graphics placeholder
 st.sidebar.markdown("---")
-st.sidebar.subheader("Model Performance (Illustrative)")
+st.sidebar.subheader("Model Performance")
 
 # ?  prediction history display placehoder
 if 'prediction_history' in st.session_state and st.session_state.prediction_history:
