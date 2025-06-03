@@ -220,7 +220,7 @@ else:
 st.sidebar.markdown("---")
 st.sidebar.subheader("Model Performance (Illustrative)")
 
-# ? placeholder for prediction history display [cite: 37]
+# ?  prediction history display placehoder
 if 'prediction_history' in st.session_state and st.session_state.prediction_history:
     st.sidebar.markdown("---")
     st.sidebar.subheader("Recent Prediction History")
